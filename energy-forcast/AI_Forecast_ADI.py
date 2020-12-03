@@ -1,4 +1,3 @@
-#-----------------------------------
 #LSTM Model for time series forecast by adi
 #
 #Some functions were copied from TensforFlow website time-series tutorial, see: https://www.tensorflow.org/tutorials/structured_data/time_series#top_of_page
@@ -364,27 +363,6 @@ def compile_and_fit(model, window, patience=2):
 
 
 
-
-history = compile_and_fit(multi_step_dense, conv_window)
-
-IPython.display.clear_output()
-val_performance['Multi step dense'] = multi_step_dense.evaluate(conv_window.val)
-performance['Multi step dense'] = multi_step_dense.evaluate(conv_window.test, verbose=0)
-
-
-
-
-LABEL_WIDTH = 20
-INPUT_WIDTH = LABEL_WIDTH + (CONV_WIDTH - 1)
-wide_conv_window = WindowGenerator(
-    input_width=INPUT_WIDTH,
-    label_width=LABEL_WIDTH,
-    shift=1,
-    label_columns=['value'])
-
-
-
-
 ### LSTM ###
 # Main Focus here is THIS model. Simple 2-layer LSTM for basic ts forecast.
 
@@ -415,6 +393,3 @@ performance['LSTM'] = lstm_model.evaluate(wide_window.test, verbose=0)
 
 
 wide_window.plot(lstm_model)
-
-
-
