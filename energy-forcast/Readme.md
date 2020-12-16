@@ -1,6 +1,5 @@
-AI Forecast by Adi
+AI Forecast using LTSM 
 
-I created a simple forecasting LSTM time series model at Infinite Devices GmbH.
 It basically takes some smartmeter data (5 cols, > 12mil. instances, cols: id, device_name, property, value, timestamp) and creates a custom forecast based on selected window. 
 The file is available in .py and .ipynb format, so you can choose according to your preferences.
 
@@ -11,9 +10,4 @@ After that, some functions are used to give the user the ability to use time win
 The first models created are a simple baseline model, used for evaluating the performance of the later on built LSTM model. The baseline model simply shifts the values by t=1. Hence,
 there is no t=0 and each timestamp uses the value from t-1.
 Finally, there's the 2-layer plain vanilla LSTM. After 11 epochs, I reached a loss of 10.86 which is rather mediocre. However, the main idea here is to build a basic forecasting model
-for which this seems appropriate. More is definetely to come!
-
-Have a look at it and let me know what you think! Feedback is strongly welcome.
-
-Cheers,
-adi
+for which this seems appropriate. 
