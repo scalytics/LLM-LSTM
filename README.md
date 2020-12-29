@@ -1,3 +1,3 @@
-AI Repo of Infinite Devices GmbH
+R&D
 ----------------------
 For codes, models and anything else with numbers.
