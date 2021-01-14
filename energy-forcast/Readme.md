@@ -13,6 +13,8 @@ The first models created are a simple baseline model, used for evaluating the pe
 there is no t=0 and each timestamp uses the value from t-1.
 Finally, there's the 2-layer plain vanilla LSTM. After 11 epochs, I reached a loss of 10.86 which is rather mediocre. However, the main idea here is to build a basic forecasting model
 for which this seems appropriate.   
+
+
+![LTSM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)   
    
-      
-![LTSM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)
+Blogpost: https://infinitedevices.de/en/time-series-forecast-with-lstm/
