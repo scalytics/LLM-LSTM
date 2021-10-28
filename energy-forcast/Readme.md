@@ -1,4 +1,4 @@
-### AI Energy Forecast using LTSM 
+### AI Energy Forecast using LSTM 
 
 It basically takes some smartmeter data (5 cols, > 12mil. instances, cols: id, device_name, property, value, timestamp) and creates a custom forecast based on selected window. 
 The file is available in .py and .ipynb format, so you can choose according to your preferences.
@@ -15,6 +15,6 @@ Finally, there's the 2-layer plain vanilla LSTM. After 11 epochs, I reached a lo
 for which this seems appropriate.   
 
 
-![LTSM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)   
+![LSTM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)   
    
 Blogpost: https://infinitedevices.de/en/time-series-forecast-with-lstm/
