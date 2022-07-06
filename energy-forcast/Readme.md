@@ -15,6 +15,4 @@ Finally, there's the 2-layer plain vanilla LSTM. After 11 epochs, I reached a lo
 for which this seems appropriate.   
 
 
-![LSTM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)   
-   
-Blogpost: https://infinitedevices.de/en/time-series-forecast-with-lstm/
+![LSTM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)
