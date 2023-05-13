@@ -9,10 +9,10 @@ After that, some functions are used to give the user the ability to use time win
    
 ![Model](https://github.com/infinimesh/ai/blob/main/energy-forcast/model.png?raw=true)
    
-The first models created are a simple baseline model, used for evaluating the performance of the later on built LSTM model. The baseline model simply shifts the values by t=1. Hence,
+The first models created are a simple baseline model, used for evaluating the performance of the later on built LTSM model. The baseline model simply shifts the values by t=1. Hence,
 there is no t=0 and each timestamp uses the value from t-1.
-Finally, there's the 2-layer plain vanilla LSTM. After 11 epochs, I reached a loss of 10.86 which is rather mediocre. However, the main idea here is to build a basic forecasting model
+Finally, there's the 2-layer plain vanilla LTSM. After 11 epochs, I reached a loss of 10.86 which is rather mediocre. However, the main idea here is to build a basic forecasting model
 for which this seems appropriate.   
 
 
-![LSTM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)
+![LTSM](https://github.com/infinimesh/ai/blob/main/energy-forcast/LTSM.png?raw=true)
