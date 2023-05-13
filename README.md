@@ -8,6 +8,6 @@ Smaller, but specialized models are AI models that are trained and fine-tuned on
 ----------------------
 With Blossom Sky, users can benefit from the best of both worlds: the generality and scalability of LLMs and the specificity and interpretability of smaller, but specialized models. Blossom future-proofs any analytics architecture by separating data storage and processing, allowing it to better use best-of-breed BI apps now and in future.  Blossom also delivers the efficiency and flexibility to expedite time to insight with high concurrency through federated cost-based query optimization.  
 
-***LTSM***
+***LSTM models***
 -----------
 [Energy Consumption Forecast](https://github.com/databloom-ai/LLM-LSTM/tree/main/energy-forcast)
