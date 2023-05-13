@@ -1,4 +1,4 @@
-***Specialized LLMs***
+***Specialized LLMs / LSTM***
 ----------------------
 Specialized models that are tailored to specific domains and tasks combined with distributed (federated) data processing. These models can leverage domain-specific data and knowledge to achieve higher accuracy and efficiency than big LLMs. And, more important, these models can be more transparent and explainable, allowing users to trust and control them better. The user has control over the data used to train these models, makes sure that no IP is exposed and, used in a correct way, reduces generative introduced bias.
 
