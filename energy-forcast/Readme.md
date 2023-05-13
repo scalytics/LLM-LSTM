@@ -1,4 +1,4 @@
-### AI Energy Forecast using LSTM 
+### AI Energy Forecast using LTSM 
 
 It basically takes some smartmeter data (5 cols, > 12mil. instances, cols: id, device_name, property, value, timestamp) and creates a custom forecast based on selected window. 
 The file is available in .py and .ipynb format, so you can choose according to your preferences.
