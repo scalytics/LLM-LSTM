@@ -10,4 +10,4 @@ With Scalytics, users can benefit from the best of both worlds: the generality a
 
 ***LSTM models***
 ---------
-[LSTEnergy](https://github.com/scalytics/LLM-NNW/tree/main/LST-E) - Energy Consumption Forecast
+[LST-E](https://github.com/scalytics/LLM-NNW/tree/main/LST-E) - Energy Consumption Forecast
