@@ -1,4 +1,4 @@
-#LSTM Model for time series forecast, (c) infinimesh, databloom AI and affiliates, 2020 - 2023
+#LSTM Model for time series forecast, (c) infinimesh, Scalytics (www.scalytics.io) and affiliates, 2020 - 2023
 # Apache License 2.0
 #Some functions were copied from TensforFlow website time-series tutorial, see: https://www.tensorflow.org/tutorials/structured_data/time_series#top_of_page
 #GitHub: https://github.com/tensorflow/docs/blob/master/site/en/tutorials/structured_data/time_series.ipynb
